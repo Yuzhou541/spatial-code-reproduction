@@ -1,0 +1,5 @@
+accelerate
+safetensors
+sentencepiece
+transformers
+tqdm

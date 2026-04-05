@@ -1,0 +1,223 @@
+sample_id,condition,question,allowed_answers,gold_answer,parsed_prediction,raw_output,difficulty_bucket,size_ratio,initial_error_category,manual_error_category,diagnosis
+living_room_a_q_001,structured,"Which object has the larger 3D volume, the sofa or the coffee_table?","sofa, coffee_table",sofa,,"First, I will calculate the 3D volume for the sofa and the coffee table using their respective size dimensions.
+
+For the sofa:
+- x_size = 2.100
+- y_size = 0.950
+- z_size = 0.880
+
+Volume of sofa = x_size * y_size * z_size = 2.100 * 0.950 * 0.880
+
+For the coffee table:
+- x_size = 1.200
+- y_size = 0.550
+- z_size = 0.450
+
+Volume of coffee table = x_size * y_size * z_size = 1.200 * 0.550 * 0.450
+
+Now, I will compute these volumes:
+
+Volume of sofa = 2.100 * 0.950 * 0.880 = 1.7616
+Volume of coffee table = 1.200 * 0.550 * 0.450 = 0.297
+
+Comparing the two volumes:
+- Volume of sofa = 1.7",easy,5.911111,invalid_output,,
+living_room_a_q_009,structured,Compare the 3D sizes of the armchair and the bookshelf. Which one is larger?,"armchair, bookshelf",armchair,,"First, I will calculate the volume of the armchair using its dimensions:
+- armchair_x_size = 0.900
+- armchair_y_size = 0.950
+- armchair_z_size = 0.900
+
+armchair_volume = armchair_x_size * armchair_y_size * armchair_z_size
+armchair_volume = 0.900 * 0.950 * 0.900
+
+Next, I will calculate the volume of the bookshelf using its dimensions:
+- bookshelf_x_size = 1.000
+- bookshelf_y_size = 0.350
+- bookshelf_z_size = 1.900
+
+bookshelf_volume = bookshelf_x_size * bookshelf_y_size * bookshelf_z_size
+bookshelf_volume = 1.000 * 0.350 * 1.900
+
+Now, I will compute these volumes:
+
+armchair_volume = 0.900 * 0.950 * 0.900 = 0.72825
+bookshelf_volume = 1.000 * 0.350 *",hard,1.157143,invalid_output,,
+bedroom_a_q_021,structured,Compare the 3D sizes of the bed and the dresser. Which one is larger?,"bed, dresser",bed,dresser,Final Answer: dresser,easy,3.075,,,
+bedroom_a_q_022,structured,"Which object has the larger 3D volume, the bed or the desk_lamp?","bed, desk_lamp",bed,,"First, I will calculate the 3D volume of the bed using its size dimensions:
+- bed's x_size = 2.050
+- bed's y_size = 1.650
+- bed's z_size = 0.600
+
+Volume of bed = 2.050 * 1.650 * 0.600
+
+Next, I will calculate the 3D volume of the desk_lamp using its size dimensions:
+- desk_lamp's x_size = 0.250
+- desk_lamp's y_size = 0.250
+- desk_lamp's z_size = 0.500
+
+Volume of desk_lamp = 0.250 * 0.250 * 0.500
+
+Now, I will compute these volumes:
+
+Volume of bed = 2.050 * 1.650 * 0.600 = 2.049
+Volume of desk_lamp = 0.250 * 0.250 * 0.500 = 0.031
+
+Comparing the two volumes:
+- Volume",easy,64.944,invalid_output,,
+office_a_q_045,structured,Compare the 3D sizes of the swivel_chair and the whiteboard. Which one is larger?,"swivel_chair, whiteboard",swivel_chair,,"First, I will calculate the volume of the swivel chair:
+- x_size = 0.700
+- y_size = 0.700
+- z_size = 1.050
+Volume of swivel chair = 0.700 * 0.700 * 1.050
+
+Next, I will calculate the volume of the whiteboard:
+- x_size = 1.400
+- y_size = 0.100
+- z_size = 1.000
+Volume of whiteboard = 1.400 * 0.100 * 1.000
+
+Now, I will compare these volumes:
+Volume of swivel chair = 0.700 * 0.700 * 1.050 = 0.5043
+Volume of whiteboard = 1.400 * 0.100 * 1.000 = 0.1400
+
+The volume of the swivel chair (0.5043) is larger than the volume of the whiteboard (0.1400).
+
+Final Answer:",easy,3.675,invalid_output,,
+garage_a_q_054,structured,Compare the 3D sizes of the workbench and the bicycle. Which one is larger?,"workbench, bicycle",workbench,,"First, I will calculate the volume of the workbench using its size dimensions:
+- Workbench x_size = 1.800
+- Workbench y_size = 0.750
+- Workbench z_size = 0.950
+
+Volume of workbench = 1.800 * 0.750 * 0.950
+
+Next, I will calculate the volume of the bicycle using its size dimensions:
+- Bicycle x_size = 1.750
+- Bicycle y_size = 0.250
+- Bicycle z_size = 1.100
+
+Volume of bicycle = 1.750 * 0.250 * 1.100
+
+Now, I will compute these volumes:
+
+Volume of workbench = 1.800 * 0.750 * 0.950 = 1.30625 cubic units
+Volume of bicycle = 1.750 * 0.250 * 1.100 = 0.484375 cubic units
+
+Comparing the two volumes:
+- Volume of workbench > Volume of bicycle
+
+Final",easy,2.664935,invalid_output,,
+garage_a_q_058,structured,"Which object has the larger 3D volume, the bicycle or the ladder?","bicycle, ladder",bicycle,,"First, I will calculate the 3D volume for the bicycle and the ladder using their respective size dimensions.
+
+For the bicycle:
+\[ \text{Volume}_{\text{bicycle}} = x_{\text{size}} \times y_{\text{size}} \times z_{\text{size}} = 1.750 \times 0.250 \times 1.100 \]
+
+For the ladder:
+\[ \text{Volume}_{\text{ladder}} = x_{\text{size}} \times y_{\text{size}} \times z_{\text{size}} = 0.450 \times 0.150 \times 1.800 \]
+
+Now, let's compute these volumes:
+
+\[ \text{Volume}_{\text{bicycle}} = 1.750 \times 0.250 \times 1.100 = 0.484375 \]
+
+\[ \text{Volume}_{\text{ladder}} = 0.450 \times 0.150 \times 1.800 = 0.1215 \]
+
+Comparing",easy,3.960905,invalid_output,,
+classroom_a_q_062,structured,"Between the teacher_desk and the whiteboard, which object is larger?","teacher_desk, whiteboard",teacher_desk,,"First, I will calculate the volume of the teacher_desk using its size_3d dimensions:
+- x_size = 1.400
+- y_size = 0.750
+- z_size = 0.760
+
+Volume of teacher_desk = x_size * y_size * z_size = 1.400 * 0.750 * 0.760
+
+Next, I will calculate the volume of the whiteboard using its size_3d dimensions:
+- x_size = 2.200
+- y_size = 0.120
+- z_size = 1.200
+
+Volume of whiteboard = x_size * y_size * z_size = 2.200 * 0.120 * 1.200
+
+Now, I will compute these volumes:
+
+Volume of teacher_desk = 1.400 * 0.750 * 0.760 = 0.858 cubic units
+Volume of whiteboard = 2.200 * 0.120 * 1.200 = 0.31104 cubic units",easy,2.518939,invalid_output,,
+classroom_a_q_067,structured,"Which object has the larger 3D volume, the bookshelf or the whiteboard?","bookshelf, whiteboard",bookshelf,,"First, I will calculate the 3D volume of the bookshelf using its size dimensions:
+- Length (x_size): 0.950
+- Width (y_size): 0.320
+- Height (z_size): 1.700
+
+Volume of bookshelf = x_size * y_size * z_size
+                  = 0.950 * 0.320 * 1.700
+
+Next, I will calculate the 3D volume of the whiteboard using its size dimensions:
+- Length (x_size): 2.200
+- Width (y_size): 0.120
+- Height (z_size): 1.200
+
+Volume of whiteboard = x_size * y_size * z_size
+                    = 2.200 * 0.120 * 1.200
+
+Now, I will compute these volumes:
+
+Volume of bookshelf = 0.950 * 0.320 * 1.700 ≈ 0.536
+Volume of whiteboard = 2.200 * 0.120 * 1.20",medium,1.631313,invalid_output,,
+studio_a_q_079,structured,"Which object has the larger 3D volume, the couch or the tripod?","couch, tripod",couch,,"First, I will calculate the 3D volume of the couch using its size dimensions.
+
+Couch's size_3d: [1.950, 0.900, 0.880]
+Couch's volume = 1.950 * 0.900 * 0.880
+
+Next, I will calculate the 3D volume of the tripod using its size dimensions.
+
+Tripod's size_3d: [0.700, 0.700, 1.550]
+Tripod's volume = 0.700 * 0.700 * 1.550
+
+Now, I will compute these volumes:
+
+Couch's volume = 1.950 * 0.900 * 0.880 = 1.5942
+Tripod's volume = 0.700 * 0.700 * 1.550 = 0.7445
+
+Comparing the two volumes:
+Couch's volume (1.5942) > Tripod's volume (0.7445)
+
+Final Answer:",easy,2.033443,invalid_output,,
+studio_a_q_080,structured,"Between the couch and the storage_shelf, which object is larger?","couch, storage_shelf",couch,,"First, I will calculate the volume of the couch using its size dimensions:
+- Length (x_size): 1.950
+- Width (y_size): 0.900
+- Height (z_size): 0.880
+
+Volume of the couch = x_size * y_size * z_size
+                  = 1.950 * 0.900 * 0.880
+                  = 1.58712 cubic units
+
+Next, I will calculate the volume of the storage shelf using its size dimensions:
+- Length (x_size): 1.100
+- Width (y_size): 0.380
+- Height (z_size): 1.850
+
+Volume of the storage shelf = x_size * y_size * z_size
+                           = 1.100 * 0.380 * 1.850
+                           = 0.7737 cubic units
+
+Comparing the volumes:
+- Volume of couch: 1.58712 cubic units
+- Volume of storage shelf: 0.7737 cubic units
+
+The couch has a larger volume.
+
+Final Answer:",medium,1.997155,invalid_output,,
+studio_a_q_082,structured,"Which object has the larger 3D volume, the easel or the storage_shelf?","easel, storage_shelf",storage_shelf,,"First, I will calculate the 3D volume of the easel using its size dimensions:
+- Easel's x_size = 0.700
+- Easel's y_size = 0.600
+- Easel's z_size = 1.650
+
+Easel's volume = x_size * y_size * z_size = 0.700 * 0.600 * 1.650
+
+Next, I will calculate the 3D volume of the storage_shelf using its size dimensions:
+- Storage_shelf's x_size = 1.100
+- Storage_shelf's y_size = 0.380
+- Storage_shelf's z_size = 1.850
+
+Storage_shelf's volume = x_size * y_size * z_size = 1.100 * 0.380 * 1.850
+
+Now, I will compute these volumes:
+
+Easel's volume = 0.700 * 0.600 * 1.650 = 0.723 cubic units
+Storage_shelf's volume = 1.100 * 0.",hard,1.115873,invalid_output,,

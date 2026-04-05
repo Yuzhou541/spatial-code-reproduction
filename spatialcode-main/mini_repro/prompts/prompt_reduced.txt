@@ -1,0 +1,13 @@
+Condition: reduced_representation
+
+You are given a structured 3D scene description for an object-size reasoning task.
+Use only the provided fields to answer the question.
+Determine which queried object has the larger 3D bounding-box volume, computed as x_size * y_size * z_size.
+Do not rely on common-sense priors.
+You may reason briefly, but you must end with exactly one line in this format:
+Final Answer: <one allowed object label>
+
+{SPATIAL_CODE_BLOCK}
+
+Question: {QUESTION}
+Allowed answers: {ALLOWED_ANSWERS}
