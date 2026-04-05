@@ -5,7 +5,7 @@ This repository now contains a practical mini reproduction of the core claim fro
 **Thinking with Spatial Code for Physical-World Video Reasoning**  
 Paper: https://arxiv.org/pdf/2603.05591
 
-The original paper README says the full codebase and training details were not yet released. In line with `schedule.md`, this repo therefore implements a **small-scale, inference-only reproduction** focused on **object-size reasoning**:
+The original paper README says the full codebase and training details were not yet released. This repo therefore implements a **small-scale, inference-only reproduction** focused on **object-size reasoning**:
 
 - no training
 - no RL
